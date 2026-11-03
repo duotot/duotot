@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Duotot: Newborn Baby Tracker</title>
+  <link rel="icon" type="image/png" href="assets/images/app_icon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand-link">
+        <img src="assets/images/app_icon.png" alt="Duotot Icon" class="brand-logo">
+        <div>
+          <div class="brand-title">Duotot</div>
+          <div class="brand-subtitle">Baby Care Tracker</div>
+        </div>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="index.html#features">Features</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html" style="color: var(--accent-coral);">Privacy</a>
+        <a href="index.html#download" class="btn-header">Get App</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="legal-page">
+      <h1>Privacy Policy</h1>
+      <div class="legal-meta">Effective Date: November 1, 2026 • Version 1.0</div>
+
+      <p>Duotot ("we", "us", or "our") is dedicated to protecting the sensitive personal and care information of your newborn and family. This Privacy Policy details the local-first architecture and data handling practices of Duotot ("App").</p>
+
+      <h2>1. Local-First Architecture (Zero Cloud Storage)</h2>
+      <p>Duotot operates strictly on a <strong>local-first</strong> foundation:</p>
+      <ul>
+        <li><strong>On-Device SQLite Storage:</strong> All baby names, dates, feeding logs, nursing timers, diaper events, sleep records, and moment photos remain stored locally in a private Drift/SQLite database on your phone.</li>
+        <li><strong>No Central Servers:</strong> We do not operate user accounts, central servers, or analytics databases. Your records never leave your devices to any cloud server operated by us.</li>
+      </ul>
+
+      <h2>2. Direct Peer-to-Peer Home Wi-Fi Sync</h2>
+      <p>Caregiver sync functions solely over your private local home network:</p>
+      <ul>
+        <li><strong>Local Wi-Fi Handshake:</strong> Data transfers directly between paired caregiver phones over your private Wi-Fi network using local IP transport and mutual cryptographic keys.</li>
+        <li><strong>No External Cloud Relay:</strong> Data does not traverse external cloud servers. Syncing only occurs when both devices are actively connected to your local network.</li>
+      </ul>
+
+      <h2>3. Device Permissions & How They Are Used</h2>
+      <ul>
+        <li><strong>Microphone (<code>RECORD_AUDIO</code>):</strong> Used only when you tap the voice logging button to speak a care command (e.g., "Left feed 15 minutes" or "Wet diaper"). Speech is converted locally using your device's native speech recognition service. Duotot never performs continuous listening and never stores raw audio recordings.</li>
+        <li><strong>Zero Camera Permissions:</strong> Duotot does not request or use camera access. Pairing between caregiver devices is handled seamlessly via local Wi-Fi discovery and secure 6-digit PIN verification without requiring a camera or optical scanner.</li>
+        <li><strong>Photo Library (Optional):</strong> If you choose to attach photos to milestone keepsakes, the system photo picker is used. Selected images remain stored strictly in app-local device storage.</li>
+        <li><strong>Notifications (<code>POST_NOTIFICATIONS</code>):</strong> Used to display ongoing feeding/nap timers and care shift reminders.</li>
+        <li><strong>Local Network (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>, <code>NEARBY_WIFI_DEVICES</code>):</strong> Used strictly for local Wi-Fi peer discovery and syncing between paired devices on your home router.</li>
+      </ul>
+
+      <h2>4. Children's Privacy (COPPA & GDPR-K Compliance)</h2>
+      <p>Duotot is designed and marketed exclusively for adult parents, guardians, and newborn caregivers. We do not knowingly collect personal information from children under 13 (or under 16 in the European Union). Any infant data recorded in the App is entered voluntarily by the adult caregiver and remains stored on the user's private device.</p>
+
+      <h2>5. Zero Ads & Zero Third-Party Tracking</h2>
+      <p>Duotot contains no third-party advertising SDKs, behavioral analytics trackers, or data broker integrations. We never sell, rent, monetize, or trade your family's data.</p>
+
+      <h2>6. Data Ownership & Deletion</h2>
+      <p>You have complete control over your records:</p>
+      <ul>
+        <li><strong>Encrypted Backups:</strong> Export a passphrase-encrypted archive (<code>.babycare</code>) anytime to your private storage.</li>
+        <li><strong>Immediate Erasure:</strong> Clear all baby profiles, care history, and paired device keys directly inside the App via <strong>Family & Sharing &gt; Reset</strong>. Uninstalling the app permanently purges all local app data from your device.</li>
+      </ul>
+
+      <div class="disclaimer-callout">
+        <p><strong>Medical Disclaimer:</strong> Duotot is a caregiver record-keeping organizer. It does not provide medical diagnosis, treatment, or clinical advice. Always consult your pediatrician or medical professional for health questions or medication guidance.</p>
+      </div>
+
+      <h2>7. Contact Us</h2>
+      <p>If you have any questions or feedback regarding this Privacy Policy, please reach out to us at:</p>
+      <p><strong>Email:</strong> support@duotot.app</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Duotot. All rights reserved. • <a href="index.html" style="color: inherit;">Back to Home</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
